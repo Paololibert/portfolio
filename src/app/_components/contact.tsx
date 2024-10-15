@@ -162,7 +162,7 @@ export default function Contact() {
                 <FaLinkedin className="text-2xl text-blue-600 hover:text-blue-800" />
               </Link>
               <Link
-                href="https://github.com/your-github-username"
+                href="https://github.com/Paololibert"
                 target="_blank"
               >
                 {" "}
@@ -170,7 +170,7 @@ export default function Contact() {
                 <FaGithub className="text-2xl text-gray-500 hover:text-gray-700" />
               </Link>
               <Link
-                href="https://gitlab.com/your-gitlab-username"
+                href="https://gitlab.com/libertsinzo7"
                 target="_blank"
               >
                 {" "}
