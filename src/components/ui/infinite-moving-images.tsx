@@ -79,26 +79,28 @@ export const InfiniteMovingImages = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-1 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 py-4 w-max flex-nowrap",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative flex-shrink-0"
+            className="w-[200px] md:w-[350px] flex-shrink-0 px-2" // Reduce width on small screens
             key={idx}
           >
-            <div className="p-2 flex flex-col items-center">
+            <div className="p-1 md:p-2 flex flex-col items-center">
               <Image
                 src={item.imageUrl}
                 alt={item.description || `Image ${idx + 1}`}
-                width={100}
-                height={100}
+                width={80} // Smaller image size for small screens
+                height={80}
                 className="object-cover rounded-lg"
               />
               {item.description && (
-                <p className="mt-4 text-sm text-gray-400 text-center w-full">{item.description}</p>
+                <p className="mt-2 md:mt-4 text-xs md:text-sm text-gray-400 text-center w-full">
+                  {item.description}
+                </p>
               )}
             </div>
           </li>
