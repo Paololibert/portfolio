@@ -16,12 +16,12 @@ export default function Hero() {
         </p>
         <div className="flex space-x-4"> {/* Utilise un conteneur flex pour espacer les boutons */}
           <Link href="#contact">
-            <Button className="text-base font-mono w-26 bg-[#4f7090] hover:bg-[#243545]" size={"lg"}>
+            <Button className="text-base font-mono w-24  bg-[#4f7090] hover:bg-[#243545]" size={"lg"}>
               Contact me
             </Button>
           </Link>
           <Link href="/SINZOGAN-Libert-Paolo-A.pdf" target="_blank" >
-            <Button className="text-base font-mono w-26 bg-[#4f7090] hover:bg-[#243545]" size={"lg"}>
+            <Button className="text-base font-mono w-24   bg-[#4f7090] hover:bg-[#243545]" size={"lg"}>
               My resume
             </Button>
           </Link>
