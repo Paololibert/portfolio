@@ -150,7 +150,7 @@ export default function Contact() {
             >
               Send
             </Button>
-            <div className="flex space-x-1">
+            <div className="flex space-x-1 md:space-x-4">
               {/* Icons for WhatsApp, LinkedIn, and Phone */}
               <Link href="https://wa.me/+22961670094" target="_blank">
                 <FaWhatsapp className="text-2xl text-green-500 hover:text-green-700" />
@@ -167,7 +167,7 @@ export default function Contact() {
               <Link href="https://gitlab.com/libertsinzo7" target="_blank">
                 <FaGitlab className="text-2xl text-[#4f7090] hover:text-gray-700" />
               </Link>
-              <div className="flex justify-center space-x-1">
+              <div className="flex justify-center space-x-1 ">
                 <FaPhone className="text-2xl text-[#4f7090] hover:text-gray-700" />
 
                 <span className="text-white flex"> <span className="hidden md:block">+229</span> 61670094</span>
