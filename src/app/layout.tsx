@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Libert Paolo SINZOGAN",
-  description: "Fullstack developer using nestjs, nextjs, Laravel, Python Django",
+  description: "Full stack developer using nestjs, nextjs, Laravel, Python Django",
 };
 
 export default function RootLayout({
