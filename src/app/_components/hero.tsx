@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="text-3xl sm:text-4xl font-bold">
             <TextGenerateEffect words={myName} />
           </h1>
-          <p className="font-serif text-2xl text-white max-w-md text-justify">
+          <p className="font-serif text-2xl text-white text-justify pr-2">
           I am a web developer and passionate about the world of technology. I am interested in learning new things. I would like to improve my skills to become a software engineer.
           </p>
         </div>
