@@ -26,7 +26,7 @@ export default function Project() {
       title: "Cashew Pms",
       description: "Cashew Factory management application (old version)",
       link: "https://ani-cashewpms.com/",
-      technologies: ["Nextjs", "Prisma","Postgresql"],
+      technologies: ["Laravel", "Bootstrap","Postgresql"],
     },
     {
       title: "Nutrispark",
