@@ -13,7 +13,7 @@ export default function Hero() {
             <TextGenerateEffect words={myName} />
           </h1>
           <p className="font-serif text-2xl text-white text-justify pr-2">
-          I am a web developer and passionate about the world of technology. I am interested in learning new things. I would like to improve my skills to become a software engineer.
+          I am a web developer and passionate about the world of technology. I am interested in learning new things.
           </p>
         </div>
         <div className="flex justify-center sm:justify-start space-x-4">
