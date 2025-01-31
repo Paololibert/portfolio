@@ -38,7 +38,7 @@ export default function Project() {
     },
     {
       title: "Acme-Learning",
-      description: "For learning Nextjs using Prisma and Postgresql.",
+      description: "For learning Nextjs using Prisma and Postgresql. You can use these credentials to login: email: user@nextmail.com, password: 123456",
       link: "https://learning-acme.vercel.app/",
       technologies: ["Nextjs", "Prisma","Postgresql"],
     },
