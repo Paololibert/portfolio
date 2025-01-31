@@ -7,6 +7,7 @@ export default function Project() {
       description: "A service presentation and customer management site.",
       link: "https://www.nunkunservices.com/",
       technologies: ["Laravel", "Bootstrap"],
+      deprecated:true
     },
     {
       title: "Ile-mi",
@@ -27,6 +28,7 @@ export default function Project() {
       description: "Cashew Factory management application (old version)",
       link: "https://ani-cashewpms.com/",
       technologies: ["Laravel", "Bootstrap","Postgresql"],
+      deprecated:true
     },
     {
       title: "Nutrispark",
@@ -46,7 +48,7 @@ export default function Project() {
     {
       title: "PMS",
       description: "Factory management application (under development) ",
-      link: "https://learning-acme.vercel.app/",
+      link: "https://pms-front-gules.vercel.app/",
       technologies: ["Nextjs", "Prisma","Postgresql","Nestjs"],
     },
   ]
