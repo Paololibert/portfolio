@@ -45,7 +45,7 @@ export default function Project() {
     {
       title: "nextauth-credentials",
       description: "A simple example of how to use nextauth with credentials",
-      link: "https://nextauth-credentials.vercel.app/",
+      link: "https://nextauth-credentials-two.vercel.app/",
       technologies: ["Nextjs", "Nextauth","shadcn/ui","Postgresql"],
     },
   ];
