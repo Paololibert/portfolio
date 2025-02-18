@@ -16,13 +16,13 @@ export default function Project() {
       technologies: ["Django", "Bootstrap","Postgresql"],
       deprecated:true
     },
-    {
+    /* {
       title: "Vartlab-benin",
       description: "Service presentation site",
       link: "https://vartlab-benin.com/",
       technologies: ["PHP", "Bootstrap"],
       deprecated:true
-    },
+    }, */
     {
       title: "Cashew Pms",
       description: "Cashew Factory management application (old version)",
@@ -41,6 +41,12 @@ export default function Project() {
       description: "For learning Nextjs using Prisma and Postgresql. You can use these credentials to login: email: user@nextmail.com, password: 123456",
       link: "https://learning-acme.vercel.app/",
       technologies: ["Nextjs", "Prisma","Postgresql"],
+    },
+    {
+      title: "nextauth-credentials",
+      description: "A simple example of how to use nextauth with credentials",
+      link: "https://nextauth-credentials.vercel.app/",
+      technologies: ["Nextjs", "Nextauth","shadcn/ui","Postgresql"],
     },
   ];
 
