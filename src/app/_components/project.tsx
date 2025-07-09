@@ -24,11 +24,10 @@ export default function Project() {
       deprecated:true
     }, */
     {
-      title: "Cashew Pms",
-      description: "Cashew Factory management application (old version)",
-      link: "https://ani-cashewpms.com/",
-      technologies: ["Laravel", "Bootstrap","Postgresql"],
-      deprecated:true
+      title: "To-do-app",
+      description: "A minimalist to-do app with a basic drag-and-drop system ",
+      link: "https://to-do-apps-reactjs.vercel.app/",
+      technologies: ["React", "tailwindcss","shadcn-ui"],
     },
     {
       title: "Nutrispark",
