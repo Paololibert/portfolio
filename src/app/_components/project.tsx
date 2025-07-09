@@ -27,7 +27,7 @@ export default function Project() {
       title: "To-do-app",
       description: "A minimalist to-do app with a basic drag-and-drop system ",
       link: "https://to-do-apps-reactjs.vercel.app/",
-      technologies: ["React", "tailwindcss","shadcn-ui"],
+      technologies: ["Reactjs", "tailwindcss","shadcn-ui"],
     },
     {
       title: "Nutrispark",
