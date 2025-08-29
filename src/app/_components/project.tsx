@@ -15,14 +15,7 @@ export default function Project() {
       link: "https://ile-mi.bj/",
       technologies: ["Django", "Bootstrap","Postgresql"],
       deprecated:true
-    },
-    /* {
-      title: "Vartlab-benin",
-      description: "Service presentation site",
-      link: "https://vartlab-benin.com/",
-      technologies: ["PHP", "Bootstrap"],
-      deprecated:true
-    }, */
+    }, 
     {
       title: "To-do-app",
       description: "A minimalist to-do app with a basic drag-and-drop system ",
@@ -55,6 +48,12 @@ export default function Project() {
       description: "Factory management application (under development) ",
       link: "https://pms-front-gules.vercel.app/",
       technologies: ["Nextjs", "Prisma","Postgresql","Nestjs"],
+    },
+     {
+      title: "ChurchPartnership",
+      description: "An application to track donations received across an entire church group and subgroup ",
+      link: "https://sponsorship-traking.vercel.app/",
+      technologies: ["Nextjs", "tailwindcss","shadcn-ui"],
     },
   ]
 
